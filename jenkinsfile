@@ -4,7 +4,7 @@ pipelins {
         stage('Build') {
             steps {
                 script{
-                    sh " echo This is Build"
+                    sh "echo This is Build"
                 }
             }
         }
